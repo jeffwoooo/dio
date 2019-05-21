@@ -8,7 +8,9 @@ environment:
   sdk: '>=1.9.0 <3.0.0'
 
 dependencies:
-  cookie_jar: ^1.0.0
+  cookie_jar:
+    git:
+      url: git://github.com/jeffwoooo/cookie_jar.git
 #  cookie_jar:
 #    path: ../cookie_jar
 
